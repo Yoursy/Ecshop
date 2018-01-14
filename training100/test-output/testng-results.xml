@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="2" failed="1" ignored="0" total="3" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Listener suite" duration-ms="10574" started-at="2018-01-14T09:14:27Z" finished-at="2018-01-14T09:14:38Z">
+    <groups>
+    </groups>
+    <test name="ecshopLoginTest" duration-ms="10574" started-at="2018-01-14T09:14:27Z" finished-at="2018-01-14T09:14:38Z">
+      <class name="com.tt.ecshop.tests.LoginTest">
+        <test-method status="PASS" signature="initDriver()[pri:0, instance:com.tt.ecshop.tests.LoginTest@3532ec19]" name="initDriver" is-config="true" duration-ms="3320" started-at="2018-01-14T17:14:27Z" finished-at="2018-01-14T17:14:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method status="SKIP" signature="testLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tt.ecshop.tests.LoginTest@3532ec19]" name="testLogin" duration-ms="684" started-at="2018-01-14T17:14:31Z" data-provider="loginTestData" finished-at="2018-01-14T17:14:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[liudao001]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[111111]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[填写错误]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [填写错误] but found [用户名或密码错误]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [填写错误] but found [用户名或密码错误]at org.testng.Assert.fail(Assert.java:96)at org.testng.Assert.failNotEquals(Assert.java:776)at org.testng.Assert.assertEqualsImpl(Assert.java:137)at org.testng.Assert.assertEquals(Assert.java:118)at org.testng.Assert.assertEquals(Assert.java:453)at org.testng.Assert.assertEquals(Assert.java:463)at com.tt.ecshop.pages.UserPage.assert_login_result_text(UserPage.java:89)at com.tt.ecshop.tests.LoginTest.testLogin(LoginTest.java:50)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.lang.reflect.Method.invoke(Unknown Source)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:com.tt.ecshop.tests.LoginTest@3532ec19]" name="quitDriver" is-config="true" duration-ms="160" started-at="2018-01-14T17:14:31Z" finished-at="2018-01-14T17:14:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method status="PASS" signature="initDriver()[pri:0, instance:com.tt.ecshop.tests.LoginTest@3532ec19]" name="initDriver" is-config="true" duration-ms="2105" started-at="2018-01-14T17:14:32Z" finished-at="2018-01-14T17:14:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method status="SKIP" signature="testLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tt.ecshop.tests.LoginTest@3532ec19]" name="testLogin" duration-ms="597" started-at="2018-01-14T17:14:34Z" data-provider="loginTestData" finished-at="2018-01-14T17:14:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[liudao001]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[111111]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[填写错误]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [填写错误] but found [用户名或密码错误]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [填写错误] but found [用户名或密码错误]at org.testng.Assert.fail(Assert.java:96)at org.testng.Assert.failNotEquals(Assert.java:776)at org.testng.Assert.assertEqualsImpl(Assert.java:137)at org.testng.Assert.assertEquals(Assert.java:118)at org.testng.Assert.assertEquals(Assert.java:453)at org.testng.Assert.assertEquals(Assert.java:463)at com.tt.ecshop.pages.UserPage.assert_login_result_text(UserPage.java:89)at com.tt.ecshop.tests.LoginTest.testLogin(LoginTest.java:50)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.lang.reflect.Method.invoke(Unknown Source)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at org.testng.internal.Invoker.retryFailed(Invoker.java:829)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1000)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:com.tt.ecshop.tests.LoginTest@3532ec19]" name="quitDriver" is-config="true" duration-ms="170" started-at="2018-01-14T17:14:34Z" finished-at="2018-01-14T17:14:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method status="PASS" signature="initDriver()[pri:0, instance:com.tt.ecshop.tests.LoginTest@3532ec19]" name="initDriver" is-config="true" duration-ms="2105" started-at="2018-01-14T17:14:34Z" finished-at="2018-01-14T17:14:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method status="FAIL" signature="testLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tt.ecshop.tests.LoginTest@3532ec19]" name="testLogin" duration-ms="664" started-at="2018-01-14T17:14:37Z" data-provider="loginTestData" finished-at="2018-01-14T17:14:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[liudao001]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[111111]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[填写错误]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [填写错误] but found [用户名或密码错误]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [填写错误] but found [用户名或密码错误]at org.testng.Assert.fail(Assert.java:96)at org.testng.Assert.failNotEquals(Assert.java:776)at org.testng.Assert.assertEqualsImpl(Assert.java:137)at org.testng.Assert.assertEquals(Assert.java:118)at org.testng.Assert.assertEquals(Assert.java:453)at org.testng.Assert.assertEquals(Assert.java:463)at com.tt.ecshop.pages.UserPage.assert_login_result_text(UserPage.java:89)at com.tt.ecshop.tests.LoginTest.testLogin(LoginTest.java:50)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.lang.reflect.Method.invoke(Unknown Source)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at org.testng.internal.Invoker.retryFailed(Invoker.java:829)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1000)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:com.tt.ecshop.tests.LoginTest@3532ec19]" name="quitDriver" is-config="true" duration-ms="144" started-at="2018-01-14T17:14:37Z" finished-at="2018-01-14T17:14:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method status="PASS" signature="closeService()[pri:0, instance:com.tt.ecshop.tests.LoginTest@3532ec19]" name="closeService" is-config="true" duration-ms="52" started-at="2018-01-14T17:14:38Z" finished-at="2018-01-14T17:14:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeService -->
+      </class> <!-- com.tt.ecshop.tests.LoginTest -->
+    </test> <!-- ecshopLoginTest -->
+  </suite> <!-- Listener suite -->
+</testng-results>
